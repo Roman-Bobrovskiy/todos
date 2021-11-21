@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar: React.FunctionComponent = () => (
   <nav>
     <div className="nav-wrapper #2196f3 blue px1">
-      <NavLink to="/" className="brand-logo">
+      <NavLink to="/todos" className="brand-logo">
         Logo
       </NavLink>
       <ul className="right hide-on-med-and-down ">
