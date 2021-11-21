@@ -7,13 +7,8 @@ export const AboutPages: React.FC = () => {
   return (
     <>
       <h1>About</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
-        dolores harum dolorum dolor tenetur doloremque error reiciendis ducimus
-        neque nam? Placeat dolore eligendi odit sint quis cum quibusdam, vero
-        consequatur.
-      </p>
-      <button className="btn" onClick={() => history("/")}>
+      <p>In this application you can save and manage your to-do list</p>
+      <button className="btn" onClick={() => history("/todos")}>
         Back
       </button>
     </>

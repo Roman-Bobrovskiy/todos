@@ -5,12 +5,9 @@ const Navbar: React.FunctionComponent = () => (
   <nav>
     <div className="nav-wrapper #2196f3 blue px1">
       <NavLink to="/todos" className="brand-logo">
-        Logo
+        To-do list
       </NavLink>
       <ul className="right hide-on-med-and-down ">
-        <li>
-          <NavLink to="/todos">List</NavLink>
-        </li>
         <li>
           <NavLink to="/about">about</NavLink>
         </li>
