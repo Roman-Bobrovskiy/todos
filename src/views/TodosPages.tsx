@@ -37,7 +37,6 @@ export const TodosPages: React.FC = () => {
 
   const removeHendler = (id: number) => {
     const shoudRemove = confirm("Please confirm");
-
     shoudRemove && setTodos((prev) => prev.filter((todo) => todo.id !== id));
   };
   return (

@@ -9,7 +9,7 @@ const Navbar: React.FunctionComponent = () => (
       </NavLink>
       <ul className="right hide-on-med-and-down ">
         <li>
-          <NavLink to="/">List</NavLink>
+          <NavLink to="/todos">List</NavLink>
         </li>
         <li>
           <NavLink to="/about">about</NavLink>

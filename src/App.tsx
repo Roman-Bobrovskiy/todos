@@ -13,7 +13,7 @@ const App: React.FunctionComponent = () => {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<TodosPages />} />
+          <Route path="/todos" element={<TodosPages />} />
           <Route path="/about" element={<AboutPages />} />
         </Routes>
       </div>
